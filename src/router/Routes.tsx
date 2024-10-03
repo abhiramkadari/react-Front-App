@@ -10,6 +10,7 @@ const Router = () =>{
     return (
         <Routes>
             <Route element={ <MyLayout/> }>
+                <Route path="/" element={ <Todos/> }/>
                 <Route path="/myTodos" element={ <Todos/> }/>
                 <Route path="/myUsers" element={ <Users/> }/>
                 <Route path="/user/:userId/details" element={ <UserDetails/> }/>
