@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menuBar{
+    width: 15%;
+}
+
+.footer{
+    width: calc(100% - 15%);
+}
+
+.LayoutHeight{
+    height: calc(100% - 2.5rem);
+}
+
+.pageHeight{
+    height: calc(100% - 28px);
+    padding-bottom: 50px;
+}
+
+.navbar{
+	min-height: 2.5rem;
+	height: 2.5rem;
+}
